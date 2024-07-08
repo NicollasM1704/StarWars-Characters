@@ -206,3 +206,73 @@ footer{
     font-weight: lighter;
     color: gold;
 }
+
+@media (max-width: 768px) {
+    header {
+        height: 60px; 
+    }
+
+    h2{
+        text-align: center;
+    }
+
+
+    .logo {
+        width: 200px; 
+    }
+
+    .social-media {
+        width: 100px; 
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .cards {
+        width: calc(50% - 40px);
+        max-width: 500px;
+        height: calc(50% 80px); 
+        max-height: 180px;
+    }
+
+    .buttons {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    button {
+        width: 100%; 
+    }
+
+    .character-name {
+        font-size: 0.7rem; 
+    }
+
+    footer {
+        padding: 20px;
+        margin-top: 40px; 
+    }
+
+    .footer-logo {
+        font-size: 1rem;
+        
+    }
+
+    .modal-content {
+        width: 90%; 
+        max-width: 300px;
+        
+    }
+
+    .character-image {
+        width: 100px; 
+    }
+
+    .character-details {
+        font-size: 0.7rem; 
+
+    }
+
+}
